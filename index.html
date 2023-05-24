@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Pepsi Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="images/logo.png" class="logo"></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="navigation">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Produits</a></li>
+                <li><a href="#">Nouveautés</a></li>
+                <li><a href="#">A propos de nous</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>IESEG x LE WAGON<br><span>Web Development</span></h2>
+                <p>Cette landing page a été produite par l'étudiante Cyrine Ben Soltane. Je suis étudiante à l'IESEG en Master 1 PGE Digital Marketing & Innovation. Cette page a été conçue pour un devoir noté. Je remercie les tutoriels sur le Wagon. </p>
+                <a href="#">PRODUITS</a>
+            </div>
+            <div class="imgBox">
+                <img src="images/pepsi001.png" class="pepsi">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="images/pepsi001.png" onclick="imgSlider('images/pepsi001.png');changeBgColor('#0062be')"></li>
+            <li><img src="images/pepsi002.png" onclick="imgSlider('images/pepsi002.png');changeBgColor('#e60c2c')"></li>
+            <li><img src="images/pepsi003.png" onclick="imgSlider('images/pepsi003.png');changeBgColor('#1e1e1e')"></li>
+        </ul>
+
+        <ul class="sci">
+            <li><a href="#"><img src="images/facebook.png"></a></li>
+            <li><a href="#"><img src="images/twitter.png"></a></li>
+            <li><a href="#"><img src="images/instagram.png"></a></li>
+        </ul>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
