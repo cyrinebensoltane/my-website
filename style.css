@@ -106,7 +106,6 @@ header ul li a{
     cursor: pointer;
     transition: 0.5s;
 }
-/* Movimiento */
 .thumb li:hover{
     transform: translateY(-15px);
 }
@@ -133,7 +132,6 @@ header ul li a{
     transform: scale(0.6);
 }
 
-/* Responsive */
 @media(max-width: 991px){
     section{
         padding: 40px;
@@ -146,7 +144,7 @@ header ul li a{
         position: relative;
         max-width: 60px;
     }
-    /* Menu Responsive */
+ 
     header ul{
         position: fixed;
         top: 0;
@@ -196,7 +194,6 @@ header ul li a{
         background-repeat: no-repeat;
         filter: invert(1); 
     }
-    /* fin del menu */
     .content{
         flex-direction: column;
         margin-top: 80px;
