@@ -162,7 +162,7 @@ header ul li a{
         visibility: hidden;
         opacity: 0;
     }
-    header ul.active{ /* Para que aparezca el menu */
+    header ul.active{ 
         visibility: visible;
         opacity: 1;
     }
@@ -194,7 +194,7 @@ header ul li a{
         background-position: center;
         background-size: 25px;
         background-repeat: no-repeat;
-        filter: invert(1); /* Para que aparezca la 'x' */
+        filter: invert(1); 
     }
     /* fin del menu */
     .content{
